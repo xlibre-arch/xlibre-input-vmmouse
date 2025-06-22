@@ -1,0 +1,23 @@
+pkgbase = xlibre-input-vmmouse
+	pkgdesc = XLibre VMWare Mouse input driver
+	pkgver = 13.2.0.1
+	pkgrel = 1
+	url = https://github.com/X11Libre/xf86-input-vmmouse
+	arch = aarch64
+	arch = x86_64
+	groups = xlibre-drivers
+	license = custom
+	makedepends = xlibre-server-devel
+	makedepends = xorgproto
+	makedepends = X-ABI-XINPUT_VERSION=26.0
+	depends = glibc
+	depends = systemd-libs
+	provides = xf86-input-vmmouse
+	conflicts = xf86-input-vmmouse
+	conflicts = xorg-server<21.1.1
+	conflicts = X-ABI-XINPUT_VERSION<26
+	conflicts = X-ABI-XINPUT_VERSION>=27
+	source = xf86-input-vmmouse-xlibre-xf86-input-vmmouse-13.2.0.1.tar.gz::https://github.com/X11Libre/xf86-input-vmmouse/archive/refs/tags/xlibre-xf86-input-vmmouse-13.2.0.1.tar.gz
+	b2sums = 0d61296043ecbcdd2bd55e8ed29923290d39eb1addba507dbe55ee3b3f4e982dc1360f9685782289727080653074f789fc20d11f46f80410b1152bfcc7a0c1c8
+
+pkgname = xlibre-input-vmmouse
