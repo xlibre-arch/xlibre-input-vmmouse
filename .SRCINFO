@@ -7,11 +7,12 @@ pkgbase = xlibre-input-vmmouse
 	arch = x86_64
 	groups = xlibre-drivers
 	license = custom
-	makedepends = xlibre-server-devel
+	makedepends = xlibre-xserver-devel
 	makedepends = xorgproto
 	makedepends = X-ABI-XINPUT_VERSION=26.0
 	depends = glibc
 	depends = systemd-libs
+	provides = xf86-input-vmmouse
 	conflicts = xf86-input-vmmouse
 	conflicts = xorg-server<21.1.1
 	conflicts = X-ABI-XINPUT_VERSION<26
