@@ -1,5 +1,0 @@
-[xlibre-input-vmmouse]
-source = "git"
-git = "https://github.com/x11libre/xf86-input-vmmouse.git"
-include_regex = "xlibre-xf86-input-vmmouse-.*"
-prefix = "xlibre-xf86-input-vmmouse-"
